@@ -1,0 +1,24 @@
+{
+  "name": "anslagstavlan",
+  "version": "1.0.0",
+  "description": "A digital videotized anslagstafla",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.10.4",
+    "jade": "^1.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielsson/anslagstavlan"
+  },
+  "author": "Mattias Danielsson",
+  "license": "Apache V2",
+  "bugs": {
+    "url": "https://github.com/danielsson/anslagstavlan/issues"
+  },
+  "homepage": "https://github.com/danielsson/anslagstavlan"
+}
