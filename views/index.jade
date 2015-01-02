@@ -1,0 +1,16 @@
+doctype html
+html
+	head
+		title Anslagstavlan
+		script(src="socket.io/socket.io.js")
+		script(src="/index.js")
+		link(rel="stylesheet", href="/app.css")
+
+	body
+		video(autoplay, loop, poster="polina.jpg", id="bgvid")
+			source(src="//localhost:8080/consume/first", type="video/mp4")
+
+
+		#header
+			img(src="/skold.png", class="left")
+			h1(class="left left-margin") Konglig Datasektionen

@@ -2,10 +2,11 @@
   "name": "anslagstavlan",
   "version": "1.0.0",
   "description": "A digital videotized anslagstafla",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "express": "^4.10.4",
-    "jade": "^1.8.1"
+    "jade": "^1.8.1",
+    "socket.io": "^1.2.1"
   },
   "devDependencies": {},
   "scripts": {
